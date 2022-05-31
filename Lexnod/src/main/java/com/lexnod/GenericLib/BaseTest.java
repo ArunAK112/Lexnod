@@ -5,7 +5,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-//this was edited in github for checking purpose
+
+
+//this is edited in github(globalRepository) for checking purpose
+//this is edited in git(localRepository) for checking purpose 
 public class BaseTest implements IAutoConsts{
 
 	public static WebDriver driver;
