@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+<testng-results ignored="0" total="11" passed="10" failed="0" skipped="1">
   <reporter-output>
     <line>
-      <![CDATA[Sign in Page is Displayed,PASS]]>
-    </line>
-    <line>
       <![CDATA[verifyQuotesTabTest method started]]>
-    </line>
-    <line>
-      <![CDATA[Lexnod Home page is Displayed,PASS]]>
     </line>
     <line>
       <![CDATA[Sign in Page is Displayed,PASS]]>
@@ -137,19 +131,19 @@
       <![CDATA[Lexnod Home page is Displayed,PASS]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-06-01T08:23:59 IST" name="Suite" finished-at="2022-06-01T08:25:34 IST" duration-ms="95666">
+  <suite started-at="2022-06-01T18:15:37 IST" name="Suite" finished-at="2022-06-01T18:18:00 IST" duration-ms="142945">
     <groups>
     </groups>
-    <test started-at="2022-06-01T08:23:59 IST" name="Lexnod Test" finished-at="2022-06-01T08:25:34 IST" duration-ms="95666">
+    <test started-at="2022-06-01T18:15:37 IST" name="Lexnod Test" finished-at="2022-06-01T18:18:00 IST" duration-ms="142945">
       <class name="com.lexnod.login.ValidLogin">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.lexnod.login.ValidLogin@53976f5c]" started-at="2022-06-01T08:25:26 IST" name="openBrowser" finished-at="2022-06-01T08:25:33 IST" duration-ms="6742" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.lexnod.login.ValidLogin@53976f5c]" started-at="2022-06-01T18:17:53 IST" name="openBrowser" finished-at="2022-06-01T18:17:59 IST" duration-ms="5620" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Sign in Page is Displayed,PASS]]>
             </line>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="validLoginTest()[pri:0, instance:com.lexnod.login.ValidLogin@53976f5c]" started-at="2022-06-01T08:25:33 IST" name="validLoginTest" finished-at="2022-06-01T08:25:34 IST" duration-ms="767" status="PASS">
+        <test-method signature="validLoginTest()[pri:0, instance:com.lexnod.login.ValidLogin@53976f5c]" started-at="2022-06-01T18:17:59 IST" name="validLoginTest" finished-at="2022-06-01T18:18:00 IST" duration-ms="678" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[validLoginTest method started]]>
@@ -159,20 +153,20 @@
             </line>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.lexnod.login.ValidLogin@53976f5c]" started-at="2022-06-01T08:25:34 IST" name="closeBrowser" finished-at="2022-06-01T08:25:34 IST" duration-ms="618" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.lexnod.login.ValidLogin@53976f5c]" started-at="2022-06-01T18:18:00 IST" name="closeBrowser" finished-at="2022-06-01T18:18:00 IST" duration-ms="598" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.lexnod.login.ValidLogin -->
       <class name="com.lexnod.Reports.VerifyReportsTab">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.lexnod.Reports.VerifyReportsTab@11bd0f3b]" started-at="2022-06-01T08:24:27 IST" name="openBrowser" finished-at="2022-06-01T08:24:34 IST" duration-ms="6486" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.lexnod.Reports.VerifyReportsTab@11bd0f3b]" started-at="2022-06-01T18:16:52 IST" name="openBrowser" finished-at="2022-06-01T18:16:58 IST" duration-ms="5617" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Sign in Page is Displayed,PASS]]>
             </line>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="verifyReportsTabTest()[pri:0, instance:com.lexnod.Reports.VerifyReportsTab@11bd0f3b]" started-at="2022-06-01T08:24:34 IST" name="verifyReportsTabTest" finished-at="2022-06-01T08:24:35 IST" duration-ms="975" status="PASS">
+        <test-method signature="verifyReportsTabTest()[pri:0, instance:com.lexnod.Reports.VerifyReportsTab@11bd0f3b]" started-at="2022-06-01T18:16:58 IST" name="verifyReportsTabTest" finished-at="2022-06-01T18:16:59 IST" duration-ms="1133" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[verifyReportsTabTest method started]]>
@@ -185,20 +179,20 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyReportsTabTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.lexnod.Reports.VerifyReportsTab@11bd0f3b]" started-at="2022-06-01T08:24:35 IST" name="closeBrowser" finished-at="2022-06-01T08:24:35 IST" duration-ms="593" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.lexnod.Reports.VerifyReportsTab@11bd0f3b]" started-at="2022-06-01T18:16:59 IST" name="closeBrowser" finished-at="2022-06-01T18:16:59 IST" duration-ms="636" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.lexnod.Reports.VerifyReportsTab -->
       <class name="com.lexnod.Accounts.VerifyAccountsTab">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.lexnod.Accounts.VerifyAccountsTab@69e1dd28]" started-at="2022-06-01T08:24:19 IST" name="openBrowser" finished-at="2022-06-01T08:24:25 IST" duration-ms="6424" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.lexnod.Accounts.VerifyAccountsTab@69e1dd28]" started-at="2022-06-01T18:16:44 IST" name="openBrowser" finished-at="2022-06-01T18:16:49 IST" duration-ms="5602" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Sign in Page is Displayed,PASS]]>
             </line>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="verifyAccountsTabTest()[pri:0, instance:com.lexnod.Accounts.VerifyAccountsTab@69e1dd28]" started-at="2022-06-01T08:24:25 IST" name="verifyAccountsTabTest" finished-at="2022-06-01T08:24:27 IST" duration-ms="1313" status="PASS">
+        <test-method signature="verifyAccountsTabTest()[pri:0, instance:com.lexnod.Accounts.VerifyAccountsTab@69e1dd28]" started-at="2022-06-01T18:16:49 IST" name="verifyAccountsTabTest" finished-at="2022-06-01T18:16:51 IST" duration-ms="2110" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[verifyAccountsTabTest method started]]>
@@ -211,20 +205,20 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyAccountsTabTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.lexnod.Accounts.VerifyAccountsTab@69e1dd28]" started-at="2022-06-01T08:24:27 IST" name="closeBrowser" finished-at="2022-06-01T08:24:27 IST" duration-ms="626" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.lexnod.Accounts.VerifyAccountsTab@69e1dd28]" started-at="2022-06-01T18:16:51 IST" name="closeBrowser" finished-at="2022-06-01T18:16:52 IST" duration-ms="603" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.lexnod.Accounts.VerifyAccountsTab -->
       <class name="com.lexnod.leads.VerifyLeadsTab">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.lexnod.leads.VerifyLeadsTab@1eb5174b]" started-at="2022-06-01T08:24:52 IST" name="openBrowser" finished-at="2022-06-01T08:24:58 IST" duration-ms="5839" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.lexnod.leads.VerifyLeadsTab@1eb5174b]" started-at="2022-06-01T18:17:16 IST" name="openBrowser" finished-at="2022-06-01T18:17:21 IST" duration-ms="5579" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Sign in Page is Displayed,PASS]]>
             </line>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="verifyLeadsTabtest()[pri:0, instance:com.lexnod.leads.VerifyLeadsTab@1eb5174b]" started-at="2022-06-01T08:24:58 IST" name="verifyLeadsTabtest" finished-at="2022-06-01T08:24:59 IST" duration-ms="1557" status="PASS">
+        <test-method signature="verifyLeadsTabtest()[pri:0, instance:com.lexnod.leads.VerifyLeadsTab@1eb5174b]" started-at="2022-06-01T18:17:21 IST" name="verifyLeadsTabtest" finished-at="2022-06-01T18:17:23 IST" duration-ms="1778" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[verifyLeadsTabtest method started]]>
@@ -237,20 +231,20 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyLeadsTabtest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.lexnod.leads.VerifyLeadsTab@1eb5174b]" started-at="2022-06-01T08:24:59 IST" name="closeBrowser" finished-at="2022-06-01T08:25:00 IST" duration-ms="615" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.lexnod.leads.VerifyLeadsTab@1eb5174b]" started-at="2022-06-01T18:17:23 IST" name="closeBrowser" finished-at="2022-06-01T18:17:24 IST" duration-ms="621" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.lexnod.leads.VerifyLeadsTab -->
       <class name="com.lexnod.Forecasts.VerifyForecastsTab">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.lexnod.Forecasts.VerifyForecastsTab@c333c60]" started-at="2022-06-01T08:24:35 IST" name="openBrowser" finished-at="2022-06-01T08:24:42 IST" duration-ms="6365" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.lexnod.Forecasts.VerifyForecastsTab@c333c60]" started-at="2022-06-01T18:16:59 IST" name="openBrowser" finished-at="2022-06-01T18:17:05 IST" duration-ms="5981" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Sign in Page is Displayed,PASS]]>
             </line>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="verifyForecastsTabTest()[pri:0, instance:com.lexnod.Forecasts.VerifyForecastsTab@c333c60]" started-at="2022-06-01T08:24:42 IST" name="verifyForecastsTabTest" finished-at="2022-06-01T08:24:43 IST" duration-ms="1059" status="PASS">
+        <test-method signature="verifyForecastsTabTest()[pri:0, instance:com.lexnod.Forecasts.VerifyForecastsTab@c333c60]" started-at="2022-06-01T18:17:05 IST" name="verifyForecastsTabTest" finished-at="2022-06-01T18:17:07 IST" duration-ms="1277" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[verifyForecastsTabTest method started]]>
@@ -263,20 +257,20 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyForecastsTabTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.lexnod.Forecasts.VerifyForecastsTab@c333c60]" started-at="2022-06-01T08:24:43 IST" name="closeBrowser" finished-at="2022-06-01T08:24:43 IST" duration-ms="592" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.lexnod.Forecasts.VerifyForecastsTab@c333c60]" started-at="2022-06-01T18:17:07 IST" name="closeBrowser" finished-at="2022-06-01T18:17:07 IST" duration-ms="597" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.lexnod.Forecasts.VerifyForecastsTab -->
       <class name="com.lexnod.Potentials.VerifyPotentialsTab">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.lexnod.Potentials.VerifyPotentialsTab@79da8dc5]" started-at="2022-06-01T08:24:43 IST" name="openBrowser" finished-at="2022-06-01T08:24:50 IST" duration-ms="6517" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.lexnod.Potentials.VerifyPotentialsTab@79da8dc5]" started-at="2022-06-01T18:17:07 IST" name="openBrowser" finished-at="2022-06-01T18:17:14 IST" duration-ms="6405" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Sign in Page is Displayed,PASS]]>
             </line>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="verifyPotentialstabTest()[pri:0, instance:com.lexnod.Potentials.VerifyPotentialsTab@79da8dc5]" started-at="2022-06-01T08:24:50 IST" name="verifyPotentialstabTest" finished-at="2022-06-01T08:24:51 IST" duration-ms="1332" status="PASS">
+        <test-method signature="verifyPotentialstabTest()[pri:0, instance:com.lexnod.Potentials.VerifyPotentialsTab@79da8dc5]" started-at="2022-06-01T18:17:14 IST" name="verifyPotentialstabTest" finished-at="2022-06-01T18:17:15 IST" duration-ms="1473" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[verifyPotentialstabTest method started]]>
@@ -289,72 +283,20 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyPotentialstabTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.lexnod.Potentials.VerifyPotentialsTab@79da8dc5]" started-at="2022-06-01T08:24:51 IST" name="closeBrowser" finished-at="2022-06-01T08:24:52 IST" duration-ms="620" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.lexnod.Potentials.VerifyPotentialsTab@79da8dc5]" started-at="2022-06-01T18:17:15 IST" name="closeBrowser" finished-at="2022-06-01T18:17:16 IST" duration-ms="649" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.lexnod.Potentials.VerifyPotentialsTab -->
-      <class name="com.lexnod.Campaigns.VerifyCampaignsTab">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.lexnod.Campaigns.VerifyCampaignsTab@696da30b]" started-at="2022-06-01T08:25:11 IST" name="openBrowser" finished-at="2022-06-01T08:25:16 IST" duration-ms="5490" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Sign in Page is Displayed,PASS]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="verifyCampaignsTabTest()[pri:0, instance:com.lexnod.Campaigns.VerifyCampaignsTab@696da30b]" started-at="2022-06-01T08:25:16 IST" name="verifyCampaignsTabTest" finished-at="2022-06-01T08:25:17 IST" duration-ms="1246" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[verifyCampaignsTabTest method started]]>
-            </line>
-            <line>
-              <![CDATA[Lexnod Home page is Displayed,PASS]]>
-            </line>
-            <line>
-              <![CDATA[Campaigns text is Displayed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyCampaignsTabTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.lexnod.Campaigns.VerifyCampaignsTab@696da30b]" started-at="2022-06-01T08:25:17 IST" name="closeBrowser" finished-at="2022-06-01T08:25:18 IST" duration-ms="610" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.lexnod.Campaigns.VerifyCampaignsTab -->
-      <class name="com.lexnod.Contacts.VerifyContactsTab">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.lexnod.Contacts.VerifyContactsTab@4e7912d8]" started-at="2022-06-01T08:25:18 IST" name="openBrowser" finished-at="2022-06-01T08:25:24 IST" duration-ms="6490" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Sign in Page is Displayed,PASS]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="verifyContactsTabTest()[pri:0, instance:com.lexnod.Contacts.VerifyContactsTab@4e7912d8]" started-at="2022-06-01T08:25:24 IST" name="verifyContactsTabTest" finished-at="2022-06-01T08:25:26 IST" duration-ms="1076" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[verifyContactsTabTest method started]]>
-            </line>
-            <line>
-              <![CDATA[Lexnod Home page is Displayed,PASS]]>
-            </line>
-            <line>
-              <![CDATA[Contacts Text is Displayed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyContactsTabTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.lexnod.Contacts.VerifyContactsTab@4e7912d8]" started-at="2022-06-01T08:25:26 IST" name="closeBrowser" finished-at="2022-06-01T08:25:26 IST" duration-ms="598" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.lexnod.Contacts.VerifyContactsTab -->
       <class name="com.lexnod.leads.CreateNewLead">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.lexnod.leads.CreateNewLead@5fd4f8f5]" started-at="2022-06-01T08:25:00 IST" name="openBrowser" finished-at="2022-06-01T08:25:06 IST" duration-ms="6330" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.lexnod.leads.CreateNewLead@5fd4f8f5]" started-at="2022-06-01T18:17:24 IST" name="openBrowser" finished-at="2022-06-01T18:17:29 IST" duration-ms="5473" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Sign in Page is Displayed,PASS]]>
             </line>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="createNewLeadTest()[pri:0, instance:com.lexnod.leads.CreateNewLead@5fd4f8f5]" started-at="2022-06-01T08:25:06 IST" name="createNewLeadTest" finished-at="2022-06-01T08:25:10 IST" duration-ms="3923" status="PASS">
+        <test-method signature="createNewLeadTest()[pri:0, instance:com.lexnod.leads.CreateNewLead@5fd4f8f5]" started-at="2022-06-01T18:17:29 IST" name="createNewLeadTest" finished-at="2022-06-01T18:17:37 IST" duration-ms="7338" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[createNewLeadTest method started]]>
@@ -376,43 +318,228 @@
             </line>
           </reporter-output>
         </test-method> <!-- createNewLeadTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.lexnod.leads.CreateNewLead@5fd4f8f5]" started-at="2022-06-01T08:25:10 IST" name="closeBrowser" finished-at="2022-06-01T08:25:11 IST" duration-ms="610" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.lexnod.leads.CreateNewLead@5fd4f8f5]" started-at="2022-06-01T18:17:37 IST" name="closeBrowser" finished-at="2022-06-01T18:17:37 IST" duration-ms="615" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.lexnod.leads.CreateNewLead -->
-      <class name="com.lexnod.quotes.VerifyQuotesTab">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.lexnod.quotes.VerifyQuotesTab@747edf66]" started-at="2022-06-01T08:23:59 IST" name="openBrowser" finished-at="2022-06-01T08:24:07 IST" duration-ms="8403" status="PASS">
+      <class name="com.lexnod.Contacts.VerifyContactsTab">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.lexnod.Contacts.VerifyContactsTab@4e7912d8]" started-at="2022-06-01T18:17:46 IST" name="openBrowser" finished-at="2022-06-01T18:17:51 IST" duration-ms="5692" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Sign in Page is Displayed,PASS]]>
             </line>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="verifyQuotesTabTest()[pri:0, instance:com.lexnod.quotes.VerifyQuotesTab@747edf66]" started-at="2022-06-01T08:24:07 IST" name="verifyQuotesTabTest" finished-at="2022-06-01T08:24:10 IST" duration-ms="2812" status="PASS">
+        <test-method signature="verifyContactsTabTest()[pri:0, instance:com.lexnod.Contacts.VerifyContactsTab@4e7912d8]" started-at="2022-06-01T18:17:51 IST" name="verifyContactsTabTest" finished-at="2022-06-01T18:17:53 IST" duration-ms="1475" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[verifyQuotesTabTest method started]]>
+              <![CDATA[verifyContactsTabTest method started]]>
             </line>
             <line>
               <![CDATA[Lexnod Home page is Displayed,PASS]]>
             </line>
+            <line>
+              <![CDATA[Contacts Text is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyContactsTabTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.lexnod.Contacts.VerifyContactsTab@4e7912d8]" started-at="2022-06-01T18:17:53 IST" name="closeBrowser" finished-at="2022-06-01T18:17:53 IST" duration-ms="609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.lexnod.Contacts.VerifyContactsTab -->
+      <class name="com.lexnod.Campaigns.VerifyCampaignsTab">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.lexnod.Campaigns.VerifyCampaignsTab@696da30b]" started-at="2022-06-01T18:17:37 IST" name="openBrowser" finished-at="2022-06-01T18:17:44 IST" duration-ms="6320" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Sign in Page is Displayed,PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="verifyCampaignsTabTest()[pri:0, instance:com.lexnod.Campaigns.VerifyCampaignsTab@696da30b]" started-at="2022-06-01T18:17:44 IST" name="verifyCampaignsTabTest" finished-at="2022-06-01T18:17:45 IST" duration-ms="1538" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[verifyCampaignsTabTest method started]]>
+            </line>
+            <line>
+              <![CDATA[Lexnod Home page is Displayed,PASS]]>
+            </line>
+            <line>
+              <![CDATA[Campaigns text is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCampaignsTabTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.lexnod.Campaigns.VerifyCampaignsTab@696da30b]" started-at="2022-06-01T18:17:45 IST" name="closeBrowser" finished-at="2022-06-01T18:17:46 IST" duration-ms="649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.lexnod.Campaigns.VerifyCampaignsTab -->
+      <class name="com.lexnod.quotes.VerifyQuotesTab">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.lexnod.quotes.VerifyQuotesTab@747edf66]" started-at="2022-06-01T18:15:38 IST" name="openBrowser" finished-at="2022-06-01T18:16:31 IST" duration-ms="53228" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=102.0.5005.63)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'LAPTOP-3AI9QJI2', ip: '192.168.254.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e776df31e587692f011899cff11d8a41, get {url=http://192.168.152.128:8080/crm/ShowHomePage.do}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:50663}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50663/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e776df31e587692f011899cff11d8a41]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=102.0.5005.63)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'LAPTOP-3AI9QJI2', ip: '192.168.254.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e776df31e587692f011899cff11d8a41, get {url=http://192.168.152.128:8080/crm/ShowHomePage.do}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:50663}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50663/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e776df31e587692f011899cff11d8a41
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
+at com.lexnod.GenericLib.BaseTest.openBrowser(BaseTest.java:38)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="verifyQuotesTabTest()[pri:0, instance:com.lexnod.quotes.VerifyQuotesTab@747edf66]" started-at="2022-06-01T18:16:31 IST" name="verifyQuotesTabTest" finished-at="2022-06-01T18:16:31 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=102.0.5005.63)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'LAPTOP-3AI9QJI2', ip: '192.168.254.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e776df31e587692f011899cff11d8a41, get {url=http://192.168.152.128:8080/crm/ShowHomePage.do}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:50663}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50663/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e776df31e587692f011899cff11d8a41]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=102.0.5005.63)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'LAPTOP-3AI9QJI2', ip: '192.168.254.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e776df31e587692f011899cff11d8a41, get {url=http://192.168.152.128:8080/crm/ShowHomePage.do}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:50663}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50663/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e776df31e587692f011899cff11d8a41
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
+at com.lexnod.GenericLib.BaseTest.openBrowser(BaseTest.java:38)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyQuotesTabTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.lexnod.quotes.VerifyQuotesTab@747edf66]" started-at="2022-06-01T08:24:10 IST" name="closeBrowser" finished-at="2022-06-01T08:24:11 IST" duration-ms="638" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.lexnod.quotes.VerifyQuotesTab@747edf66]" started-at="2022-06-01T18:16:31 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1654087591749" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.lexnod.quotes.VerifyQuotesTab -->
       <class name="com.lexnod.Dsahboards.VerifyDashboardsTab">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.lexnod.Dsahboards.VerifyDashboardsTab@3738449f]" started-at="2022-06-01T08:24:11 IST" name="openBrowser" finished-at="2022-06-01T08:24:17 IST" duration-ms="6547" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.lexnod.Dsahboards.VerifyDashboardsTab@3738449f]" started-at="2022-06-01T18:16:31 IST" name="openBrowser" finished-at="2022-06-01T18:16:38 IST" duration-ms="6693" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Sign in Page is Displayed,PASS]]>
             </line>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="verifyDashboardsTabTest()[pri:0, instance:com.lexnod.Dsahboards.VerifyDashboardsTab@3738449f]" started-at="2022-06-01T08:24:17 IST" name="verifyDashboardsTabTest" finished-at="2022-06-01T08:24:18 IST" duration-ms="875" status="PASS">
+        <test-method signature="verifyDashboardsTabTest()[pri:0, instance:com.lexnod.Dsahboards.VerifyDashboardsTab@3738449f]" started-at="2022-06-01T18:16:38 IST" name="verifyDashboardsTabTest" finished-at="2022-06-01T18:16:43 IST" duration-ms="5124" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[verifyDashboardsTabTest method started]]>
@@ -425,7 +552,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyDashboardsTabTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.lexnod.Dsahboards.VerifyDashboardsTab@3738449f]" started-at="2022-06-01T08:24:18 IST" name="closeBrowser" finished-at="2022-06-01T08:24:19 IST" duration-ms="606" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.lexnod.Dsahboards.VerifyDashboardsTab@3738449f]" started-at="2022-06-01T18:16:43 IST" name="closeBrowser" finished-at="2022-06-01T18:16:44 IST" duration-ms="615" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

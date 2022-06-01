@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-skipped">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,7 +93,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">11 methods,   11 passed</span>
+                    <span class="method-stats">11 methods,  1 skipped,  10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.lexnod.quotes.VerifyQuotesTab" class="method navigator-link" hash-for-method="verifyQuotesTabTest">verifyQuotesTabTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -149,11 +163,6 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.lexnod.quotes.VerifyQuotesTab" class="method navigator-link" hash-for-method="verifyQuotesTabTest">verifyQuotesTabTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.lexnod.Reports.VerifyReportsTab" class="method navigator-link" hash-for-method="verifyReportsTabTest">verifyReportsTabTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -169,9 +178,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="skipped.png"/>
               <span class="class-name">com.lexnod.quotes.VerifyQuotesTab</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -180,6 +189,41 @@
                   <a name="verifyQuotesTabTest">
                   </a> <!-- verifyQuotesTabTest -->
                   <span class="method-name">verifyQuotesTabTest</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=102.0.5005.63)
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;LAPTOP-3AI9QJI2&apos;, ip: &apos;192.168.254.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e776df31e587692f011899cff11d8a41, get {url=http://192.168.152.128:8080/crm/ShowHomePage.do}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:50663}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50663/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e776df31e587692f011899cff11d8a41
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
+	at com.lexnod.GenericLib.BaseTest.openBrowser(BaseTest.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 38 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.lexnod.Dsahboards.VerifyDashboardsTab</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDashboardsTabTest">
+                  </a> <!-- verifyDashboardsTabTest -->
+                  <span class="method-name">verifyDashboardsTabTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -202,21 +246,6 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.lexnod.Dsahboards.VerifyDashboardsTab</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyDashboardsTabTest">
-                  </a> <!-- verifyDashboardsTabTest -->
-                  <span class="method-name">verifyDashboardsTabTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">com.lexnod.Contacts.VerifyContactsTab</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -232,21 +261,6 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.lexnod.Campaigns.VerifyCampaignsTab</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyCampaignsTabTest">
-                  </a> <!-- verifyCampaignsTabTest -->
-                  <span class="method-name">verifyCampaignsTabTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">com.lexnod.Reports.VerifyReportsTab</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -255,6 +269,21 @@
                   <a name="verifyReportsTabTest">
                   </a> <!-- verifyReportsTabTest -->
                   <span class="method-name">verifyReportsTabTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.lexnod.Campaigns.VerifyCampaignsTab</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCampaignsTabTest">
+                  </a> <!-- verifyCampaignsTabTest -->
+                  <span class="method-name">verifyCampaignsTabTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -400,52 +429,52 @@ data.addRows(11);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'createNewLeadTest')
 data.setCell(0, 2, 'com.lexnod.leads.CreateNewLead')
-data.setCell(0, 3, 3923);
+data.setCell(0, 3, 7338);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyQuotesTabTest')
-data.setCell(1, 2, 'com.lexnod.quotes.VerifyQuotesTab')
-data.setCell(1, 3, 2812);
+data.setCell(1, 1, 'verifyDashboardsTabTest')
+data.setCell(1, 2, 'com.lexnod.Dsahboards.VerifyDashboardsTab')
+data.setCell(1, 3, 5124);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyLeadsTabtest')
-data.setCell(2, 2, 'com.lexnod.leads.VerifyLeadsTab')
-data.setCell(2, 3, 1557);
+data.setCell(2, 1, 'verifyAccountsTabTest')
+data.setCell(2, 2, 'com.lexnod.Accounts.VerifyAccountsTab')
+data.setCell(2, 3, 2110);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifyPotentialstabTest')
-data.setCell(3, 2, 'com.lexnod.Potentials.VerifyPotentialsTab')
-data.setCell(3, 3, 1332);
+data.setCell(3, 1, 'verifyLeadsTabtest')
+data.setCell(3, 2, 'com.lexnod.leads.VerifyLeadsTab')
+data.setCell(3, 3, 1778);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'verifyAccountsTabTest')
-data.setCell(4, 2, 'com.lexnod.Accounts.VerifyAccountsTab')
-data.setCell(4, 3, 1313);
+data.setCell(4, 1, 'verifyCampaignsTabTest')
+data.setCell(4, 2, 'com.lexnod.Campaigns.VerifyCampaignsTab')
+data.setCell(4, 3, 1538);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'verifyCampaignsTabTest')
-data.setCell(5, 2, 'com.lexnod.Campaigns.VerifyCampaignsTab')
-data.setCell(5, 3, 1246);
+data.setCell(5, 1, 'verifyContactsTabTest')
+data.setCell(5, 2, 'com.lexnod.Contacts.VerifyContactsTab')
+data.setCell(5, 3, 1475);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'verifyContactsTabTest')
-data.setCell(6, 2, 'com.lexnod.Contacts.VerifyContactsTab')
-data.setCell(6, 3, 1076);
+data.setCell(6, 1, 'verifyPotentialstabTest')
+data.setCell(6, 2, 'com.lexnod.Potentials.VerifyPotentialsTab')
+data.setCell(6, 3, 1473);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'verifyForecastsTabTest')
 data.setCell(7, 2, 'com.lexnod.Forecasts.VerifyForecastsTab')
-data.setCell(7, 3, 1059);
+data.setCell(7, 3, 1277);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'verifyReportsTabTest')
 data.setCell(8, 2, 'com.lexnod.Reports.VerifyReportsTab')
-data.setCell(8, 3, 975);
+data.setCell(8, 3, 1133);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'verifyDashboardsTabTest')
-data.setCell(9, 2, 'com.lexnod.Dsahboards.VerifyDashboardsTab')
-data.setCell(9, 3, 875);
+data.setCell(9, 1, 'validLoginTest')
+data.setCell(9, 2, 'com.lexnod.login.ValidLogin')
+data.setCell(9, 3, 678);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'validLoginTest')
-data.setCell(10, 2, 'com.lexnod.login.ValidLogin')
-data.setCell(10, 3, 767);
+data.setCell(10, 1, 'verifyQuotesTabTest')
+data.setCell(10, 2, 'com.lexnod.quotes.VerifyQuotesTab')
+data.setCell(10, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 16 seconds</span>
+              <span class="suite-total-time">Total running time: 23 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -456,72 +485,6 @@ return data;
             <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyDashboardsTabTest</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">verifyDashboardsTabTest method started</span>
-                <span class="reporter-method-output">Lexnod Home page is Displayed,PASS</span>
-                <span class="reporter-method-output">Dashboard text is Displayed</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">createNewLeadTest</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">createNewLeadTest method started</span>
-                <span class="reporter-method-output">Lexnod Home page is Displayed,PASS</span>
-                <span class="reporter-method-output">LeadsText is Displayed</span>
-                <span class="reporter-method-output">Create Lead Page is Displayed,PASS</span>
-                <span class="reporter-method-output">LeadDetails Page is Displayed,PASS</span>
-                <span class="reporter-method-output">Lead Name Text is Displayed,PASS</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">validLoginTest</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">validLoginTest method started</span>
-                <span class="reporter-method-output">Lexnod Home page is Displayed,PASS</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyAccountsTabTest</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">verifyAccountsTabTest method started</span>
-                <span class="reporter-method-output">Lexnod Home page is Displayed,PASS</span>
-                <span class="reporter-method-output">Accounts Text is Displayed</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyPotentialstabTest</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">verifyPotentialstabTest method started</span>
-                <span class="reporter-method-output">Lexnod Home page is Displayed,PASS</span>
-                <span class="reporter-method-output">Potentials Text is Displayed</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyContactsTabTest</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">verifyContactsTabTest method started</span>
-                <span class="reporter-method-output">Lexnod Home page is Displayed,PASS</span>
-                <span class="reporter-method-output">Contacts Text is Displayed</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyReportsTabTest</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">verifyReportsTabTest method started</span>
-                <span class="reporter-method-output">Lexnod Home page is Displayed,PASS</span>
-                <span class="reporter-method-output">Reports text is Displayed</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyForecastsTabTest</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">verifyForecastsTabTest method started</span>
-                <span class="reporter-method-output">Lexnod Home page is Displayed,PASS</span>
-                <span class="reporter-method-output">Forecasts Text is Displayed</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
               <span class="reporter-method-name">verifyLeadsTabtest</span>
               <div class="reporter-method-output-div">
@@ -539,10 +502,69 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyQuotesTabTest</span>
+              <span class="reporter-method-name">verifyAccountsTabTest</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">verifyQuotesTabTest method started</span>
+                <span class="reporter-method-output">verifyAccountsTabTest method started</span>
                 <span class="reporter-method-output">Lexnod Home page is Displayed,PASS</span>
+                <span class="reporter-method-output">Accounts Text is Displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validLoginTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">validLoginTest method started</span>
+                <span class="reporter-method-output">Lexnod Home page is Displayed,PASS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyContactsTabTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">verifyContactsTabTest method started</span>
+                <span class="reporter-method-output">Lexnod Home page is Displayed,PASS</span>
+                <span class="reporter-method-output">Contacts Text is Displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyForecastsTabTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">verifyForecastsTabTest method started</span>
+                <span class="reporter-method-output">Lexnod Home page is Displayed,PASS</span>
+                <span class="reporter-method-output">Forecasts Text is Displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyPotentialstabTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">verifyPotentialstabTest method started</span>
+                <span class="reporter-method-output">Lexnod Home page is Displayed,PASS</span>
+                <span class="reporter-method-output">Potentials Text is Displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">createNewLeadTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">createNewLeadTest method started</span>
+                <span class="reporter-method-output">Lexnod Home page is Displayed,PASS</span>
+                <span class="reporter-method-output">LeadsText is Displayed</span>
+                <span class="reporter-method-output">Create Lead Page is Displayed,PASS</span>
+                <span class="reporter-method-output">LeadDetails Page is Displayed,PASS</span>
+                <span class="reporter-method-output">Lead Name Text is Displayed,PASS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyDashboardsTabTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">verifyDashboardsTabTest method started</span>
+                <span class="reporter-method-output">Lexnod Home page is Displayed,PASS</span>
+                <span class="reporter-method-output">Dashboard text is Displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyReportsTabTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">verifyReportsTabTest method started</span>
+                <span class="reporter-method-output">Lexnod Home page is Displayed,PASS</span>
+                <span class="reporter-method-output">Reports text is Displayed</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -562,166 +584,168 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.lexnod.quotes.VerifyQuotesTab</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">openBrowser</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verifyQuotesTabTest</span>
-                <span class="method-start">8411 ms</span>
+                <span class="method-start">53282 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">11243 ms</span>
+                <span class="method-start">53308 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.lexnod.Dsahboards.VerifyDashboardsTab</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">openBrowser</span>
-                <span class="method-start">11884 ms</span>
+                <span class="method-start">53310 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verifyDashboardsTabTest</span>
-                <span class="method-start">18431 ms</span>
+                <span class="method-start">60004 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">19307 ms</span>
+                <span class="method-start">65130 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.lexnod.Accounts.VerifyAccountsTab</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">openBrowser</span>
-                <span class="method-start">19914 ms</span>
+                <span class="method-start">65746 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verifyAccountsTabTest</span>
-                <span class="method-start">26338 ms</span>
+                <span class="method-start">71349 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">27652 ms</span>
+                <span class="method-start">73459 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.lexnod.Reports.VerifyReportsTab</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">openBrowser</span>
-                <span class="method-start">28278 ms</span>
+                <span class="method-start">74062 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verifyReportsTabTest</span>
-                <span class="method-start">34765 ms</span>
+                <span class="method-start">79679 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">35740 ms</span>
+                <span class="method-start">80812 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.lexnod.Forecasts.VerifyForecastsTab</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">openBrowser</span>
-                <span class="method-start">36334 ms</span>
+                <span class="method-start">81448 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verifyForecastsTabTest</span>
-                <span class="method-start">42699 ms</span>
+                <span class="method-start">87430 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">43758 ms</span>
+                <span class="method-start">88707 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.lexnod.Potentials.VerifyPotentialsTab</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">openBrowser</span>
-                <span class="method-start">44351 ms</span>
+                <span class="method-start">89304 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verifyPotentialstabTest</span>
-                <span class="method-start">50868 ms</span>
+                <span class="method-start">95709 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">52200 ms</span>
+                <span class="method-start">97182 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.lexnod.leads.VerifyLeadsTab</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">openBrowser</span>
-                <span class="method-start">52820 ms</span>
+                <span class="method-start">97834 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verifyLeadsTabtest</span>
-                <span class="method-start">58659 ms</span>
+                <span class="method-start">103414 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">60216 ms</span>
+                <span class="method-start">105193 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.lexnod.leads.CreateNewLead</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">openBrowser</span>
-                <span class="method-start">60831 ms</span>
+                <span class="method-start">105815 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">createNewLeadTest</span>
-                <span class="method-start">67162 ms</span>
+                <span class="method-start">111288 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">71088 ms</span>
+                <span class="method-start">118627 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.lexnod.Campaigns.VerifyCampaignsTab</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">openBrowser</span>
-                <span class="method-start">71699 ms</span>
+                <span class="method-start">119243 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verifyCampaignsTabTest</span>
-                <span class="method-start">77190 ms</span>
+                <span class="method-start">125566 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">78437 ms</span>
+                <span class="method-start">127105 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.lexnod.Contacts.VerifyContactsTab</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">openBrowser</span>
-                <span class="method-start">79048 ms</span>
+                <span class="method-start">127754 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verifyContactsTabTest</span>
-                <span class="method-start">85538 ms</span>
+                <span class="method-start">133448 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">86616 ms</span>
+                <span class="method-start">134923 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.lexnod.login.ValidLogin</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">openBrowser</span>
-                <span class="method-start">87214 ms</span>
+                <span class="method-start">135533 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">validLoginTest</span>
-                <span class="method-start">93957 ms</span>
+                <span class="method-start">141155 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">94724 ms</span>
+                <span class="method-start">141834 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
