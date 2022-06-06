@@ -7,13 +7,14 @@
       <class name="com.lexnod.Dsahboards.VerifyDashboardsTab"/>
       <class name="com.lexnod.Campaigns.CreateNewCampaign"/>
       <class name="com.lexnod.Accounts.VerifyAccountsTab"/>
-      <class name="com.lexnod.Reports.VerifyReportsTab"/>
-      <class name="com.lexnod.Forecasts.VerifyForecastsTab"/>
       <class name="com.lexnod.Potentials.VerifyPotentialsTab"/>
+      <class name="com.lexnod.Reports.VerifyReportsTab"/>
+      <class name="com.lexnod.Potentials.CreatePotential"/>
+      <class name="com.lexnod.Forecasts.VerifyForecastsTab"/>
       <class name="com.lexnod.leads.VerifyLeadsTab"/>
       <class name="com.lexnod.leads.CreateNewLead"/>
-      <class name="com.lexnod.Campaigns.VerifyCampaignsTab"/>
       <class name="com.lexnod.Contacts.VerifyContactsTab"/>
+      <class name="com.lexnod.Campaigns.VerifyCampaignsTab"/>
       <class name="com.lexnod.login.ValidLogin"/>
     </classes>
   </test> <!-- Test -->
