@@ -1,6 +1,7 @@
 package com.lexnod.Potentials;
 
 import org.testng.annotations.Listeners;
+import org.testng.annotations.Test;
 
 import com.lexnod.GenericLib.BaseTest;
 import com.lexnod.GenericLib.FileLib;
@@ -11,6 +12,8 @@ import com.lexnod.pages.PotentialsPage;
 @Listeners(com.lexnod.GenericLib.MyListeners.class)
 //open the browser, enter the url and verify
 public class CreatePotential extends BaseTest{
+	
+	@Test
 	
 	public void createPotentialTest() throws Throwable {
 		
