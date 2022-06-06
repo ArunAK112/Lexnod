@@ -1,5 +1,7 @@
 package com.lexnod.Potentials;
 
+import java.util.concurrent.TimeUnit;
+
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -39,14 +41,14 @@ public class CreatePotential extends BaseTest{
 		cp.accountNameTextBox(flib.readExcelData(EXCEL_PATH, "createPotential", 3, 1));
 		cp.stageDropDown(flib.readExcelData(EXCEL_PATH, "createPotential", 4, 1));
 		cp.typeDropDown(flib.readExcelData(EXCEL_PATH, "createPotential", 5, 1));
-		cp.probabilityTextBox(flib.readExcelData(EXCEL_PATH, "createPotential", 6, 1));
-		cp.nextStepTextBox(flib.readExcelData(EXCEL_PATH, "createPotential", 7, 1));
-		cp.leadSourceDropDown(flib.readExcelData(EXCEL_PATH, "createPotential", 8, 1));
-		cp.campaignSourceTextBox(flib.readExcelData(EXCEL_PATH, "createPotential", 9, 1));
-		cp.descriptionTextBox(flib.readExcelData(EXCEL_PATH, "createPotential", 10, 1));
+		cp.nextStepTextBox(flib.readExcelData(EXCEL_PATH, "createPotential", 6, 1));
+		cp.leadSourceDropDown(flib.readExcelData(EXCEL_PATH, "createPotential", 7, 1));
+		cp.campaignSourceTextBox(flib.readExcelData(EXCEL_PATH, "createPotential", 8, 1));
+		cp.descriptionTextBox(flib.readExcelData(EXCEL_PATH, "createPotential", 9, 1));
+		cp.saveButton();
 		
 		//Verification
-		wlib.verify(wlib.getPageTitle(), flib.readPropertyData(PROP_PATH, "potentialsDetailTitle"), "Potential Detail Page");
+		wlib.verify(wlib.getPageTitle(), flib.readPropertyData(PROP_PATH, "potentialDetailTitle"), "Potential Detail Page");
 		
 		
 		

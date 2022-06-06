@@ -2,75 +2,56 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Default test started]]>
-    </line>
-    <line>
       <![CDATA[Sign in Page is Displayed,PASS]]>
     </line>
     <line>
-      <![CDATA[createNewLeadTest method started]]>
+      <![CDATA[createPotentialTest method started]]>
     </line>
     <line>
       <![CDATA[Lexnod Home page is Displayed,PASS]]>
     </line>
     <line>
-      <![CDATA[LeadsText is Displayed]]>
+      <![CDATA[Potentials Text is Displayed]]>
     </line>
     <line>
-      <![CDATA[Create Lead Page is Displayed,PASS]]>
+      <![CDATA[Create Potential Page is Displayed,PASS]]>
     </line>
     <line>
-      <![CDATA[LeadDetails Page is Displayed,PASS]]>
-    </line>
-    <line>
-      <![CDATA[Lead Name Text is Displayed,PASS]]>
-    </line>
-    <line>
-      <![CDATA[createNewLeadTest method PASSED]]>
+      <![CDATA[Potential Detail Page is Displayed,PASS]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-05-28T10:24:13 IST" name="Default suite" finished-at="2022-05-28T10:24:21 IST" duration-ms="8219">
+  <suite started-at="2022-06-06T16:59:27 IST" name="Default suite" finished-at="2022-06-06T16:59:34 IST" duration-ms="7217">
     <groups>
     </groups>
-    <test started-at="2022-05-28T10:24:13 IST" name="Default test" finished-at="2022-05-28T10:24:21 IST" duration-ms="8219">
-      <class name="com.lexnod.leads.CreateNewLead">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.lexnod.leads.CreateNewLead@576d5deb]" started-at="2022-05-28T10:24:13 IST" name="openBrowser" finished-at="2022-05-28T10:24:17 IST" duration-ms="4072" status="PASS">
+    <test started-at="2022-06-06T16:59:27 IST" name="Default test" finished-at="2022-06-06T16:59:34 IST" duration-ms="7217">
+      <class name="com.lexnod.Potentials.CreatePotential">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.lexnod.Potentials.CreatePotential@4b45a2f5]" started-at="2022-06-06T16:59:27 IST" name="openBrowser" finished-at="2022-06-06T16:59:30 IST" duration-ms="2986" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Sign in Page is Displayed,PASS]]>
             </line>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="createNewLeadTest()[pri:0, instance:com.lexnod.leads.CreateNewLead@576d5deb]" started-at="2022-05-28T10:24:17 IST" name="createNewLeadTest" finished-at="2022-05-28T10:24:21 IST" duration-ms="3844" status="PASS">
+        <test-method signature="createPotentialTest()[pri:0, instance:com.lexnod.Potentials.CreatePotential@4b45a2f5]" started-at="2022-06-06T16:59:30 IST" name="createPotentialTest" finished-at="2022-06-06T16:59:34 IST" duration-ms="3892" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[createNewLeadTest method started]]>
+              <![CDATA[createPotentialTest method started]]>
             </line>
             <line>
               <![CDATA[Lexnod Home page is Displayed,PASS]]>
             </line>
             <line>
-              <![CDATA[LeadsText is Displayed]]>
+              <![CDATA[Potentials Text is Displayed]]>
             </line>
             <line>
-              <![CDATA[Create Lead Page is Displayed,PASS]]>
+              <![CDATA[Create Potential Page is Displayed,PASS]]>
             </line>
             <line>
-              <![CDATA[LeadDetails Page is Displayed,PASS]]>
-            </line>
-            <line>
-              <![CDATA[Lead Name Text is Displayed,PASS]]>
-            </line>
-            <line>
-              <![CDATA[createNewLeadTest method PASSED]]>
+              <![CDATA[Potential Detail Page is Displayed,PASS]]>
             </line>
           </reporter-output>
-        </test-method> <!-- createNewLeadTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.lexnod.leads.CreateNewLead@576d5deb]" started-at="2022-05-28T10:24:21 IST" name="closeBrowser" finished-at="2022-05-28T10:24:21 IST" duration-ms="265" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.lexnod.leads.CreateNewLead -->
+        </test-method> <!-- createPotentialTest -->
+      </class> <!-- com.lexnod.Potentials.CreatePotential -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

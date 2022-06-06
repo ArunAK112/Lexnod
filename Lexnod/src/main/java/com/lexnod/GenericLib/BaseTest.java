@@ -1,5 +1,7 @@
 package com.lexnod.GenericLib;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -33,7 +35,7 @@ public class BaseTest implements IAutoConsts{
 		String appURL = flib.readPropertyData(PROP_PATH, "url");
 		driver.manage().window().maximize();
 		driver.get(appURL);
-		
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		WebDriverCommonLib wlib=new WebDriverCommonLib();
 		wlib.verify(wlib.getPageTitle(), 
 				flib.readPropertyData(PROP_PATH, "loginTitle"),
