@@ -1,5 +1,6 @@
 package com.lexnod.leads;
 
+import org.testng.annotations.Test;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import com.lexnod.GenericLib.BaseTest;

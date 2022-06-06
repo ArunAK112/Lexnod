@@ -1,5 +1,6 @@
 package com.lexnod.login;
 
+import org.testng.annotations.Test;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
