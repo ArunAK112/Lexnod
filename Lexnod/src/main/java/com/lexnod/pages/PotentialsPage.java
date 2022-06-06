@@ -9,7 +9,7 @@ import com.lexnod.GenericLib.BaseTest;
 public class PotentialsPage {
 	
 	@FindBy(xpath = "//td[contains(text(),'Potentials: ')]") private WebElement potentialsText;
-	
+	@FindBy(xpath = "//input[@value='New Potential']") private WebElement newPotentialButton;
 	
 	public PotentialsPage()
 	{
@@ -23,6 +23,17 @@ public class PotentialsPage {
 	public String getPotentialsText() {
 		return potentialsText.getText();
 	}
+
+	
+	public WebElement getNewPotentialButton() {
+		return newPotentialButton;
+	}
+	
+	public void newPotentialButton() {
+		newPotentialButton.click();
+	}
+	
+	
 	
 
 }
