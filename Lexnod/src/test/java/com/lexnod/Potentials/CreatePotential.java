@@ -13,7 +13,7 @@ import com.lexnod.pages.PotentialsPage;
 public class CreatePotential extends BaseTest{
 	
 	public void createPotentialTest() throws Throwable {
-		//this is for checking purpose
+		
 		//enter valid login details and verify	
 		//click on potentials tab and verify
 		VerifyPotentialsTab vp = new VerifyPotentialsTab();
