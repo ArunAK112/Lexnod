@@ -12,7 +12,7 @@ import com.lexnod.pages.HomePage;
 @Listeners(com.lexnod.GenericLib.MyListeners.class)
 //open the browser enter the url and verify
 public class VerifyContactsTab extends BaseTest{
-	@Test
+	@Test(groups = "smokegroup")
 	public void verifyContactsTabTest() throws Throwable
 	{
 		//enter login details and verify

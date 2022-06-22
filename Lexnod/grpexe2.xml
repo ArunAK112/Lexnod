@@ -1,0 +1,15 @@
+<suite name="Suite">
+  <test name="Test">
+  <listeners>
+  <listener class-name="com.lexnod.GenericLib.MyListeners" />
+  </listeners>
+  <groups>
+  <run>
+  <include name="smokegroup" />
+  </run>
+  </groups>
+    <classes>
+      <class name="com.lexnod.Campaigns.VerifyCampaignsTab"/>
+    </classes>
+  </test> 
+</suite> 

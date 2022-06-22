@@ -163,6 +163,7 @@ public class HomePage {
 		quotesTab.click();
 	}
 	
+	
 	public void clickQuotesElement()
 	{
 		for(int i=0; i<30; i++)

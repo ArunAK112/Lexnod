@@ -13,7 +13,7 @@ import com.lexnod.pages.HomePage;
 //open the browser, enter url, verify
 public class VerifyAccountsTab extends BaseTest{
 
-	@Test
+	@Test(groups = "smokegroup")
 	public void verifyAccountsTabTest() throws Throwable
 	{
 		//enter login details and verify

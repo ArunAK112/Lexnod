@@ -1,7 +1,5 @@
 package com.lexnod.Potentials;
 
-import java.util.concurrent.TimeUnit;
-
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 

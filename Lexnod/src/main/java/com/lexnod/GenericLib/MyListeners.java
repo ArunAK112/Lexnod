@@ -39,7 +39,7 @@ public class MyListeners implements ITestListener{
 	public void onTestSkipped(ITestResult result) {
 		//Reporter.log(result.getName()+" method SKIPPED",true);
 		test=extent.createTest(result.getName());
-		test.fail(MarkupHelper.createLabel(result.getName()+" method SKIPPED", ExtentColor.PINK));
+		test.skip(MarkupHelper.createLabel(result.getName()+" method SKIPPED", ExtentColor.PINK));
 	}
 
 	public void onStart(ITestContext context) {

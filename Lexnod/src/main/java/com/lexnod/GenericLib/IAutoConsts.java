@@ -13,4 +13,5 @@ public interface IAutoConsts {
 	
 	String REPORT_PATH = "./customReports/LexnodResult.html";
 	
+	
 }

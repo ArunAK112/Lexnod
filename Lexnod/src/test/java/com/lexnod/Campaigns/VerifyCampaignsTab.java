@@ -10,11 +10,11 @@ import com.lexnod.login.ValidLogin;
 import com.lexnod.pages.CampaignsPage;
 import com.lexnod.pages.HomePage;
 
-@Listeners(com.lexnod.GenericLib.MyListeners.class)
+//@Listeners(com.lexnod.GenericLib.MyListeners.class)
 //open the browser, enter url and verify
 public class VerifyCampaignsTab extends BaseTest{
 	
-	@Test
+	@Test(groups = "smokegroup")
 	public void verifyCampaignsTabTest() throws Throwable
 	{
 		//enter valid login details and verify

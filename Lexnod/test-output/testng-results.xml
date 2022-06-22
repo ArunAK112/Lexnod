@@ -5,53 +5,45 @@
       <![CDATA[Sign in Page is Displayed,PASS]]>
     </line>
     <line>
-      <![CDATA[createPotentialTest method started]]>
-    </line>
-    <line>
       <![CDATA[Lexnod Home page is Displayed,PASS]]>
     </line>
     <line>
-      <![CDATA[Potentials Text is Displayed]]>
+      <![CDATA[Create Vendor Page is Displayed,PASS]]>
     </line>
     <line>
-      <![CDATA[Create Potential Page is Displayed,PASS]]>
-    </line>
-    <line>
-      <![CDATA[Potential Detail Page is Displayed,PASS]]>
+      <![CDATA[Vendors Detail Page is Displayed,PASS]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-06-06T16:59:27 IST" name="Default suite" finished-at="2022-06-06T16:59:34 IST" duration-ms="7217">
+  <suite started-at="2022-06-22T15:32:01 IST" name="Suite" finished-at="2022-06-22T15:32:11 IST" duration-ms="10021">
     <groups>
     </groups>
-    <test started-at="2022-06-06T16:59:27 IST" name="Default test" finished-at="2022-06-06T16:59:34 IST" duration-ms="7217">
-      <class name="com.lexnod.Potentials.CreatePotential">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.lexnod.Potentials.CreatePotential@4b45a2f5]" started-at="2022-06-06T16:59:27 IST" name="openBrowser" finished-at="2022-06-06T16:59:30 IST" duration-ms="2986" status="PASS">
+    <test started-at="2022-06-22T15:32:01 IST" name="Test" finished-at="2022-06-22T15:32:11 IST" duration-ms="10021">
+      <class name="com.lexnod.vendors.CreateVendor">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.lexnod.vendors.CreateVendor@7b36aa0c]" started-at="2022-06-22T15:32:01 IST" name="openBrowser" finished-at="2022-06-22T15:32:06 IST" duration-ms="4762" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Sign in Page is Displayed,PASS]]>
             </line>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="createPotentialTest()[pri:0, instance:com.lexnod.Potentials.CreatePotential@4b45a2f5]" started-at="2022-06-06T16:59:30 IST" name="createPotentialTest" finished-at="2022-06-06T16:59:34 IST" duration-ms="3892" status="PASS">
+        <test-method signature="createVendorTest()[pri:0, instance:com.lexnod.vendors.CreateVendor@7b36aa0c]" started-at="2022-06-22T15:32:06 IST" name="createVendorTest" finished-at="2022-06-22T15:32:10 IST" duration-ms="4503" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[createPotentialTest method started]]>
-            </line>
             <line>
               <![CDATA[Lexnod Home page is Displayed,PASS]]>
             </line>
             <line>
-              <![CDATA[Potentials Text is Displayed]]>
+              <![CDATA[Create Vendor Page is Displayed,PASS]]>
             </line>
             <line>
-              <![CDATA[Create Potential Page is Displayed,PASS]]>
-            </line>
-            <line>
-              <![CDATA[Potential Detail Page is Displayed,PASS]]>
+              <![CDATA[Vendors Detail Page is Displayed,PASS]]>
             </line>
           </reporter-output>
-        </test-method> <!-- createPotentialTest -->
-      </class> <!-- com.lexnod.Potentials.CreatePotential -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- createVendorTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.lexnod.vendors.CreateVendor@7b36aa0c]" started-at="2022-06-22T15:32:10 IST" name="closeBrowser" finished-at="2022-06-22T15:32:11 IST" duration-ms="717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.lexnod.vendors.CreateVendor -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

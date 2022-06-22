@@ -1,5 +1,6 @@
 package com.lexnod.GenericLib;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
@@ -12,7 +13,7 @@ public class BaseTest implements IAutoConsts{
 
 	public static WebDriver driver;
 	
-	@BeforeClass
+	@BeforeClass(alwaysRun = true)
 	public void openBrowser() throws Throwable
 	{
 		FileLib flib=new FileLib();
@@ -35,7 +36,7 @@ public class BaseTest implements IAutoConsts{
 		String appURL = flib.readPropertyData(PROP_PATH, "url");
 		driver.manage().window().maximize();
 		driver.get(appURL);
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		WebDriverCommonLib wlib=new WebDriverCommonLib();
 		wlib.verify(wlib.getPageTitle(), 
 				flib.readPropertyData(PROP_PATH, "loginTitle"),
@@ -43,7 +44,7 @@ public class BaseTest implements IAutoConsts{
 		
 	}
 	
-	@AfterClass(enabled=true)
+	@AfterClass(enabled=true, alwaysRun = true)
 	public void closeBrowser()
 	{
 		driver.quit();
